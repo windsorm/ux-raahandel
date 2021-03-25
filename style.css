@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Michroma&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+    --beige: #EFE9DB;
+    --black: #000000;
+    --primary-blue: #72B6C3;
+    --accept-green: #A1C07A;
+    --decline-red: #DC6150;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +21,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 .header{
-    background:#EFE9DB;
+    background: var(--beige);
     width: 100%;
     top: 0;
     z-index: 1;
@@ -29,16 +39,11 @@ body {
 .header ul a{
     display: block;
     padding: 0px;
-    color: rgb(255, 255, 255);
-    font-size: 15px;
-
-}
-
-.header ul a{
     font-size: 18px;
-    color: rgb(0, 0, 0);
+    color: var(--black);
     margin-top: 5px;
 }
+
 
 .header li{
     float: left;
@@ -48,6 +53,7 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 50px;
+    font-weight: 500;
 }
 
 .header .logo{
@@ -92,6 +98,7 @@ body {
     background-position: center;
     z-index: -1;
 }
+
 .background-pattern {
     display: block;
 }
@@ -107,3 +114,4 @@ body {
     height: 500%;
     z-index: -1;
 }
+
