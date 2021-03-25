@@ -15,12 +15,13 @@
     text-decoration: none;
 }
 
+
 body {
     margin: 0;
     background-color: #f0eada;
     font-family: 'Montserrat', sans-serif;
 }
-.header{
+nav{
     background: var(--beige);
     width: 100%;
     top: 0;
@@ -30,13 +31,13 @@ body {
 }
 
 
-.header ul{
+nav ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-.header ul a{
+nav ul a{
     display: block;
     padding: 0px;
     font-size: 18px;
@@ -45,10 +46,10 @@ body {
 }
 
 
-.header li{
+nav li{
     float: left;
 }
-.header li a{
+nav li a{
     color: black;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -56,7 +57,7 @@ body {
     font-weight: 500;
 }
 
-.header .logo{
+nav .logo{
     float: left;
     display: block;
     padding: 10px 20px;
@@ -64,26 +65,26 @@ body {
     margin-left: 30px;
 }
 
-.header .navigation{
+nav .navigation{
     clear: none;
     float: right;
     max-height: none;
 }
-.header .navigation-2{
+nav .navigation-2{
     clear: none;
     float: right;
     max-height: none;
 }
-.header .navigation-3{
+nav .navigation-3{
     clear: none;
     float: right;
     max-height: none;
 }
-.header .navigation {
+nav .navigation {
     margin-right: 40px;
     margin-top: 5px;
 }
-.header .navigation-3 a{
+nav .navigation-3 a{
     margin-left: 40px;
 }
 
@@ -99,8 +100,8 @@ body {
     z-index: -1;
 }
 
-.background-pattern {
-    display: block;
+section {
+    padding-top: 120px;
 }
 
 .background-pattern {
