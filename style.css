@@ -5,6 +5,10 @@
     text-decoration: none;
 }
 
+body {
+    margin: 0;
+    background-color: #f0eada;
+}
 
 div {
     display: block;
